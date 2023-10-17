@@ -1,0 +1,14 @@
+{% block body %}
+<h2>create student </h2>
+{{form_start(form)}}
+<div class="form-group">
+{{ form_label(form) }}
+{{ form_widget(form) }}
+</div>
+
+<button type="submit" class="bn-btn-info mt-2 text-white">submit</button>
+
+{{form_end(form)}}
+
+{% endblock %}
+
